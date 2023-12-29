@@ -9,14 +9,23 @@
     <script src="https://kit.fontawesome.com/4765695586.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="contenedorOpacidad" data-divOpacidad></div>
     <header class="encabezado">
         <section class="encabezado--container">
+            <div class="encabezado__container--menuDesplegable" data-menuDeplegable>
+                <i class="fa-solid fa-xmark closeIcon" data-iconoCloseMenu></i>
+            </div>
             <div class="encabezado__container--menu">
-                <i class="fa-solid fa-bars iconoMenu"></i>
+                <i class="fa-solid fa-bars iconoMenu" data-iconoMenuOpen></i>
                 <h1 class="menu--titulo">Variedades Ktzalí</h1>
                 <img src="/assets/img/qtzal.png" alt="Logo Variedades Ktzalí" class="menu--logo">
             </div>
+            <div class="encabezado__container--informacion">
+                <p class="informacion--texto">Bienvenido a nuestro catálogo virtual, somos una tienda guatemalteca que le ofrece variedad de artículos nacionales y americanos</p>
+                <img src="/assets/img/compras.png" alt="Imagen promoción" class="informacion--imagen">
+            </div>
         </section>
     </header>
+    <script src="/js/home/index.js" type="module"></script>
 </body>
 </html>

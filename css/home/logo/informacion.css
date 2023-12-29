@@ -1,0 +1,14 @@
+.encabezado__container--informacion{
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacion--texto{
+    font-size: 1.4rem;
+    text-align: justify;
+    width: 45%;
+}
+
+.informacion--imagen{
+    width: 10rem;
+}
