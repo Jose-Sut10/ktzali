@@ -5,12 +5,8 @@ export const activeIconoMenu = ()=>{
         const menuDesplegable = document.querySelector('[data-menuDeplegable]');
         const divOpacidad = document.querySelector('[data-divOpacidad]');
 
-        const estiloDisplay = window.getComputedStyle(menuDesplegable).display;
-
-        if (estiloDisplay === 'none') {
-            menuDesplegable.style.display = 'flex';
-            divOpacidad.style.display = 'block';
-        }
+        menuDesplegable.classList.add('activeTransition');
+        divOpacidad.style.display = 'block';
     });
 };
 
@@ -21,11 +17,8 @@ export const closeIconoMenu = ()=>{
         const menuDesplegable = document.querySelector('[data-menuDeplegable]');
         const divOpacidad = document.querySelector('[data-divOpacidad]');
 
-        const estiloDisplay = window.getComputedStyle(menuDesplegable).display;
-
-        if (estiloDisplay === 'flex') {
-            menuDesplegable.style.display = 'none';
-            divOpacidad.style.display = 'none';
-        }
+        menuDesplegable.classList.remove('activeTransition');
+        divOpacidad.style.display = 'none';
+        
     });
 };

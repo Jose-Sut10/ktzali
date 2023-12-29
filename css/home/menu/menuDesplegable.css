@@ -1,11 +1,12 @@
 .encabezado__container--menuDesplegable{
-    display: none;
     width: 65vw;
     height: 100vh;
     background-color: white;
     position: absolute;
     top: 0;
     left: 0;
+    transform: translateX(-100%);
+    transition: transform 1s;
 }
 
 .closeIcon{
@@ -70,4 +71,8 @@
     position: absolute;
     right: 0.8rem;
     margin-right: 1rem;
+}
+
+.activeTransition{
+    transform: translateX(0%);
 }
