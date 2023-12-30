@@ -1,14 +1,17 @@
 .encabezado__container--informacion{
+    height: 14rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)), url(/assets/img/fondo-movil.jpg);
+    background-size: cover;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .informacion--texto{
-    font-size: 1.4rem;
-    text-align: justify;
-    width: 45%;
-}
-
-.informacion--imagen{
-    width: 10rem;
+    width: 75%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 4px 4px rgb(0, 0, 0, 0.75);
 }

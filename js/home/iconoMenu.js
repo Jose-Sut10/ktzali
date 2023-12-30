@@ -2,11 +2,11 @@ export const activeIconoMenu = ()=>{
     const iconoAbrir = document.querySelector('[data-iconoMenuOpen]');
 
     iconoAbrir.addEventListener('click', ()=>{
-        const menuDesplegable = document.querySelector('[data-menuDeplegable]');
-        const divOpacidad = document.querySelector('[data-divOpacidad]');
+        const modalMenuDesplegable = document.querySelector('[data-modalMenuDesplegable]');
+        const menuDesplegable = document.querySelector('[data-menuDesplegable]');
 
         menuDesplegable.classList.add('activeTransition');
-        divOpacidad.style.display = 'block';
+        modalMenuDesplegable.classList.add('modalActive');       
     });
 };
 
@@ -14,11 +14,20 @@ export const closeIconoMenu = ()=>{
     const iconoCerrar = document.querySelector('[data-iconoCloseMenu]');
 
     iconoCerrar.addEventListener('click',()=>{
-        const menuDesplegable = document.querySelector('[data-menuDeplegable]');
-        const divOpacidad = document.querySelector('[data-divOpacidad]');
+        const modalMenuDesplegable = document.querySelector('[data-modalMenuDesplegable]');
+        const menuDesplegable = document.querySelector('[data-menuDesplegable]');
 
         menuDesplegable.classList.remove('activeTransition');
-        divOpacidad.style.display = 'none';
-        
+        modalMenuDesplegable.classList.remove('modalActive');       
     });
 };
+
+export const cerrarMenuModal = ()=>{
+    const modalMenuDesplegable = document.querySelector('[data-modalMenuDesplegable]');
+
+    modalMenuDesplegable.addEventListener('click', (e)=>{
+        const menuDesplegable = document.querySelector('[data-menuDesplegable]');
+        menuDesplegable.classList.remove('activeTransition');
+        modalMenuDesplegable.classList.remove('modalActive'); 
+    });
+} 
