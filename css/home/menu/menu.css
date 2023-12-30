@@ -1,4 +1,5 @@
 @import url("/css/home/menu/menuDesplegable.css");
+@import url("/css/home/menu/listaRopa.css");
 
 .encabezado__container--menu{
     display: flex;
@@ -9,22 +10,16 @@
 
 .iconoMenu{
     font-size: 1.8rem;
+    color: #ffcaf4;
 }
 
 .menu--titulo{
-    font-size: 1.6rem;
+    font-size: 1.65rem;
     font-family: 'Pacifico', cursive;
+    color: #ffcaf4;
+    text-shadow: 0 4px 4px rgb(0, 0, 0, 0.75);
 }
 
 .menu--logo{
     width: 4.2rem;
 }
-
-/* .contenedorOpacidad{
-    display: none;
-    background-color: rgba(0, 0, 0, 0.25);
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-} */
