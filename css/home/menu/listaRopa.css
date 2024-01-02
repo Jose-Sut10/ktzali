@@ -1,14 +1,15 @@
-.container__opciones--lista{
-    height: 12rem;
+.container__opciones{
     display: none;
+    margin-top: .6rem;
+}
+
+.container__opciones--lista{
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
+    gap: 1rem;
     animation:scale-up-vertical-top 0.6s linear;
-}
-
-.listaRopa{
-    display: flex;
 }
 
 .menuOpciones__lista--items{
@@ -20,6 +21,10 @@
     text-align: start;
     font-size: 1.256rem;
     color: #000;
+}
+
+.activadorMenu{
+    display: block;
 }
 
 @keyframes scale-up-vertical-top{

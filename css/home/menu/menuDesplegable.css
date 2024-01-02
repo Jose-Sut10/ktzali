@@ -1,6 +1,7 @@
 .encabezado__container--menuDesplegable{
     width: 65vw;
     height: 100vh;
+    overflow-y: scroll;
     background-color: white;
     position: absolute;
     top: 0;

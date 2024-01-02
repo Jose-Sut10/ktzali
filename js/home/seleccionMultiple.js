@@ -1,11 +1,16 @@
 const seleccionMultiple = ()=>{
-    const linkListas = document.querySelector('[data-linkLista]');
+    const links = document.querySelectorAll('.menuContainer__lista--link');
 
-    linkRopa.addEventListener('click',()=>{
-        const listaRopa = document.querySelector('[data-listaRopa]');
-
-        listaRopa.classList.toggle('listaRopa');
-    })
+    links.forEach((link)=>{
+        link.addEventListener('click',(e)=>{
+            if(link.classList.contains('menuMultiple')){
+                const elementoPadre = link.parentElement;
+                const divMenuMultiple = elementoPadre.querySelector('div');
+                
+                divMenuMultiple.classList.toggle('activadorMenu');
+            }
+        });
+    });
 };
 
 export default seleccionMultiple;
