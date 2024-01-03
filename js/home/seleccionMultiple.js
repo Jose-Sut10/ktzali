@@ -6,7 +6,7 @@ const seleccionMultiple = ()=>{
             if(link.classList.contains('menuMultiple')){
                 const elementoPadre = link.parentElement;
                 const divMenuMultiple = elementoPadre.querySelector('div');
-                
+
                 divMenuMultiple.classList.toggle('activadorMenu');
             }
         });

@@ -9,7 +9,6 @@
     justify-content: space-around;
     align-items: flex-start;
     gap: 1rem;
-    animation:scale-up-vertical-top 0.6s linear;
 }
 
 .menuOpciones__lista--items{
@@ -25,13 +24,31 @@
 
 .activadorMenu{
     display: block;
+    animation:scale-up-vertical-top 0.6s linear;
+}
+
+.cerrarMenuListas{
+    animation:scale-up-vertical-bottom 10s linear;
 }
 
 @keyframes scale-up-vertical-top{
     0%{
-        transform:scaleY(.4);transform-origin:center top
+        transform:scaleY(.4);
+        transform-origin:center top;
     }
     100%{
-        transform:scaleY(1);transform-origin:center top
+        transform:scaleY(1);
+        transform-origin:center top;
+    }
+}
+
+@keyframes scale-up-vertical-bottom{
+    0%{
+        transform:scaleY(.4);
+        transform-origin:center bottom;
+    }
+    100%{
+        transform:scaleY(1);
+        transform-origin:center bottom;
     }
 }

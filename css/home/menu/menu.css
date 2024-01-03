@@ -1,11 +1,11 @@
 @import url("/css/home/menu/menuDesplegable.css");
-@import url("/css/home/menu/listaRopa.css");
+@import url("/css/home/menu/listasDesplegables.css");
 
 .encabezado__container--menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px 0 20px;
+    padding: 10px 20px 15px 20px;
 }
 
 .iconoMenu{
@@ -21,5 +21,5 @@
 }
 
 .menu--logo{
-    width: 4.2rem;
+    width: 3rem;
 }
