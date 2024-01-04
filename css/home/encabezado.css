@@ -1,7 +1,7 @@
 @import url("/css/reset.css");
 @import url("/css/home/logo/informacion.css");
 @import url("/css/home/menu/menu.css");
-@import url("/css/home/descripcion/descripcion.css");
+@import url("/css/home/contenido.css");
 
 *{
     margin: 0;

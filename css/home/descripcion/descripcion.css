@@ -1,5 +1,9 @@
 @import url("/css/home/descripcion/contenido.css");
 
 .contenido__contenedor--Descripcion{
-    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8d0fe;
+    border-radius: 10px;
 }
