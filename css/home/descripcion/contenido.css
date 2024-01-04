@@ -1,17 +1,18 @@
+.descripcion--img{
+    width: 9rem;
+    height: 14rem;
+    background-image: url('/assets/img/prod.jpg');
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+}
+
 .imagenDescripcion{
-    width: 80%;
-    border-radius: 10px;
+    width: 100%;
 }
 
 .descripcion--texto{
-    position: relative;
-    top: -10.5rem;
-    left: 7.2rem;
-    width: 65%;
-    padding: 1rem;
-    border-radius: 12px;
-    background-color: #fef1fb50;
-    backdrop-filter: blur(5px);
+    width: 50%;
+    padding: 15px 15px 15px 0;
 }
 
 .textoDescripcion{
