@@ -9,7 +9,6 @@
 }
 
 body{
-    height: 100vh;
     /* background-image: linear-gradient(to bottom, #20c8e9, #175a73); */
     background: #AA076B;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #d1268f , #61045F);  /* Chrome 10-25, Safari 5.1-6 */

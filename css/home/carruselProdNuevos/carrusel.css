@@ -1,0 +1,18 @@
+.carruselProdNuevos{
+    display: flex;
+    justify-content: center;
+}
+
+.carruselProdNew{
+    margin-top: .5rem;
+}
+
+.carruselProdNew > li{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carruselProdNew > li >p{
+    font-size: 1.2rem;
+}

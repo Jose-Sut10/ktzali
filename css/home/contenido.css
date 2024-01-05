@@ -1,6 +1,8 @@
 @import url("/css/home/descripcion/descripcion.css");
+@import url("/css/home/carruselProdNuevos/carrusel.css");
 
 .contenido{
     width: 90vw;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
