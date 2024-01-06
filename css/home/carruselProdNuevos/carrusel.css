@@ -1,18 +1,53 @@
-.carruselProdNuevos{
-    display: flex;
-    justify-content: center;
+.productosNuevos--titulo{
+    font-size: 1.4rem;
+    color: #fce8ff;
+    margin-top: 1rem;
 }
 
 .carruselProdNew{
     margin-top: .5rem;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 20rem;
+    position: relative;
+    overflow: hidden;
 }
 
 .carruselProdNew > li{
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
+    position: absolute;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.carruselProdNew li:first-child{
+    opacity: 1;
 }
 
 .carruselProdNew > li >p{
     font-size: 1.2rem;
+}
+
+.carrusel__botones{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    bottom: -1rem;
+}
+
+.btnCarrusel{
+    font-size: 2rem;
+    color: #e744f1;
+}
+
+.anterior{
+    transform: rotate(180deg);
+}
+
+.posterior{
+    right: 1.2rem;
 }
