@@ -1,0 +1,18 @@
+@import url("/css/home/footer/derechos.css");
+
+.piePagina{
+    background-color: #ce24d5;
+    padding: 20px 0;
+}
+
+.contenedor__footer{
+    width: 95vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoPiePagina{
+    width: 4rem;
+}
