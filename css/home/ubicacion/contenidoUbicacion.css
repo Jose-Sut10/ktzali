@@ -1,0 +1,42 @@
+@import url("./contacto.css");
+
+.contenido__contenedor--ubicacion{
+    display: flex;
+    flex-direction: column;
+    background-color: #fef4ff;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.direccion__descripcion{
+    margin-bottom: 1rem;
+}
+
+.titulosUbicacion{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: .6rem;
+}
+.descripcion__localizacion{
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.contactanos{
+    display: flex;
+    align-items: center;
+}
+
+.logoWsp{
+    width: 2.2rem;
+    margin-right: .6rem;
+}
+
+.linkWsp{
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0093d0 !important;
+}

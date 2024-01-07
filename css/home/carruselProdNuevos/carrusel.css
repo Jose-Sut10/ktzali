@@ -8,10 +8,10 @@
     margin-top: .5rem;
     display: flex;
     justify-content: center;
-    width: auto;
     height: 20rem;
     position: relative;
     overflow: hidden;
+    margin-bottom: 1.2rem;
 }
 
 .carruselProdNew > li{

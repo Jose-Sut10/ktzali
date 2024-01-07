@@ -1,6 +1,7 @@
 @import url("/css/home/descripcion/descripcion.css");
 @import url("/css/home/carruselProdNuevos/carrusel.css");
 @import url("/css/home/footer/contenidoFooter.css");
+@import url("./ubicacion/contenidoUbicacion.css");
 
 .contenido{
     width: 90vw;
