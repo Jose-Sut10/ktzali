@@ -1,11 +1,13 @@
 .productosNuevos--titulo{
     font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
     color: #fce8ff;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
 }
 
 .carruselProdNew{
-    margin-top: .5rem;
+    margin-top: .8rem;
     display: flex;
     justify-content: center;
     height: 20rem;
@@ -30,6 +32,16 @@
 
 .carruselProdNew > li >p{
     font-size: 1.2rem;
+    padding: .5rem 0;
+}
+
+.carruselProdNew > li > span{
+    font-size: 1.112rem;
+    font-weight: 600;
+}
+
+.imagenCarrusel{
+    width: 13rem;
 }
 
 .carrusel__botones{

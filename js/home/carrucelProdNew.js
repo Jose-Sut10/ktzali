@@ -20,7 +20,13 @@ export const carrucel = (listaCarrusel)=>{
        }
        actualizarImagenes(carrucelProd,inicio) 
     });
-    
+
+    setInterval(()=>{
+        if (inicio === listaCarrusel.length) {
+            inicio = 0;
+        }
+        actualizarImagenes(carrucelProd, inicio++);
+    }, 5000);
 };
 
 const actualizarImagenes = (lista,indiceActual)=>{

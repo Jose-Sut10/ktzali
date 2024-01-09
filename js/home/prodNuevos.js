@@ -8,6 +8,7 @@ export const validarImagen = (url,titulo,precio,ul)=>{
         const span = document.createElement('span');
 
         img.setAttribute('src', url, 'alt',titulo);
+        img.classList.add('imagenCarrusel');
         a.appendChild(img);
         p.textContent = titulo;
         span.textContent = `Q${precio}.00`;
