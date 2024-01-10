@@ -6,7 +6,8 @@ export const activeIconoMenu = ()=>{
         const menuDesplegable = document.querySelector('[data-menuDesplegable]');
 
         menuDesplegable.classList.add('activeTransition');
-        modalMenuDesplegable.classList.add('modalActive');       
+        modalMenuDesplegable.classList.add('modalActive');     
+        document.body.classList.add('contenidoNoMenu');
     });
 };
 
@@ -18,7 +19,8 @@ export const closeIconoMenu = ()=>{
         const menuDesplegable = document.querySelector('[data-menuDesplegable]');
 
         menuDesplegable.classList.remove('activeTransition');
-        modalMenuDesplegable.classList.remove('modalActive');       
+        modalMenuDesplegable.classList.remove('modalActive');    
+        document.body.classList.remove('contenidoNoMenu');
     });
 };
 
@@ -27,7 +29,9 @@ export const cerrarMenuModal = ()=>{
 
     modalMenuDesplegable.addEventListener('click', (e)=>{
         const menuDesplegable = document.querySelector('[data-menuDesplegable]');
+
         menuDesplegable.classList.remove('activeTransition');
-        modalMenuDesplegable.classList.remove('modalActive'); 
+        modalMenuDesplegable.classList.remove('modalActive');
+        document.body.classList.remove('contenidoNoMenu');
     });
 } 

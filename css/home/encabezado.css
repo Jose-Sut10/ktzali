@@ -20,3 +20,7 @@ body{
 .encabezado{
     padding-bottom: 20px;
 }
+
+.contenidoNoMenu{
+    overflow: hidden;
+}

@@ -8,3 +8,60 @@
     margin: 0 auto;
     padding-bottom: 20px;
 }
+
+.btnWspFijo{
+    position: fixed;
+}
+
+.whatsapp{
+    position: absolute;
+    top: 2.6rem;
+    right: 1rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+}
+
+.linkWspContacto{
+    position: relative;
+}
+
+.linkWspContacto:before,
+.linkWspContacto:after {
+    content: "";
+    position: absolute;
+    top: -32px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #00e676;
+    opacity: 0; 
+    animation: ondasWsp 1.7s infinite;
+}
+
+.linkWspContacto:before{
+    animation-delay: 1s;
+}
+
+.linkWspContacto:after{
+    animation-delay: 1.4s;
+}
+
+.imgWsp{
+    position: relative;
+    z-index: 2;
+    width: 3rem;
+}
+
+@keyframes ondasWsp {
+    0%{
+        transform: scale(0.8);
+    }
+    15%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: scale(2.2);
+    }
+}
